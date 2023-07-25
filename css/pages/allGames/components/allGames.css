@@ -1,0 +1,94 @@
+.all-games-information__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.all-games-title__container > h1 {
+    font-size: 3rem;
+}
+
+.button-add-game__container > a {
+    display: flex;
+    background-color: #FF47F9;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.button-add-game__container > a > svg {
+    fill: white;
+    width: 2rem;
+} 
+
+@media screen and (min-width: 768px) {
+    .all-games-information__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 5%;
+    }
+
+    .all-games-title__container > h1 {
+        font-size: 4rem;
+    }
+
+    .button-add-game__container > a {
+        display: flex;
+        background-color: #FF47F9;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .button-add-game__container > a > svg {
+        fill: white;
+        width: 3.5rem;
+    } 
+}
+
+
+@media screen and (min-width: 900px) {
+    .all-games-information__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 10%;
+    }
+
+    .all-games-title__container > h1 {
+        font-size: 4rem;
+    }
+
+    .button-add-game__container > a {
+        display: flex;
+        background-color: #FF47F9;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .button-add-game__container > a > svg {
+        fill: white;
+        width: 3.5rem;
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    .all-games-information__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 10%;
+    }
+
+    .all-games-title__container > h1 {
+        font-size: 4rem;
+    }
+
+    .button-add-game__container > a {
+        display: flex;
+        background-color: #FF47F9;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .button-add-game__container > a > svg {
+        fill: white;
+        width: 3rem;
+    } 
+}

@@ -23,7 +23,7 @@
     }
     
     .header-logo__container > img {
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -49,6 +49,6 @@
     }
     
     .header-logo__container > img {
-        width: 100%;
+        width: 90%;
     }
 }

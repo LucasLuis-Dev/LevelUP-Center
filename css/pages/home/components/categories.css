@@ -120,26 +120,12 @@
         color: white;
     }
     
-    .category-selection-informations__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    
     
     .category-selection-title__container {
         font-size: 2.3rem;
     }
     
-    .button-add-game__container > a {
-        display: flex;
-        background-color: #FF47F9;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
     
-    .button-add-game__container > a > svg {
-        fill: white;
-        width: 3rem;
-    } 
     
 }
