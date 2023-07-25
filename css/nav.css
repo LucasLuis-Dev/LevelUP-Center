@@ -20,7 +20,7 @@
 .nav-search__container > input {
     width: 3.8rem;
     height: 3.8rem;
-    background-image: url('/assets/magnifying-glass-solid.svg');
+    background-image: url('../assets/magnifying-glass-solid.svg');
     background-repeat: no-repeat;
     background-position: center;
     
@@ -173,7 +173,7 @@
     .nav-search__container > input {
         width: 6rem;
         height: 6rem;
-        background-image: url('/assets/magnifying-glass-solid.svg');
+        background-image: url('../assets/magnifying-glass-solid.svg');
         background-repeat: no-repeat;
         background-position: center;
   

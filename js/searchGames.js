@@ -20,7 +20,7 @@ async function searchGames(event) {
        
         
 
-        window.location.href = './pages/search.html';
+        window.location.href = './search.html';
 
     }
 
