@@ -11,6 +11,8 @@ async function searchGames(event) {
         const searchData = inputElement.value;
 
         const searchResult = await gamesServices.featchGames(searchData)
+
+        console.log(searchResult);
         
         localStorage.setItem('searchResult', JSON.stringify(searchResult));
 

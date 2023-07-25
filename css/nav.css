@@ -96,7 +96,7 @@
     .nav-search__container > input {
         width: 6rem;
         height: 6rem;
-        background-image: url('/assets/magnifying-glass-solid.svg');
+        background-image: url('../assets/magnifying-glass-solid.svg');
         background-repeat: no-repeat;
         background-position: center;
   

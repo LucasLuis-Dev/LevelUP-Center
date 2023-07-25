@@ -7,8 +7,9 @@ const encodedSearchData = localStorage.getItem('searchData');
 const searchResult = JSON.parse(encodedSearchResult);
 const searchData = JSON.parse(encodedSearchData);
 
+console.log(searchResult);
 
-if (searchResult.length > 0) {
+if (searchResult !== undefined) {
    
     displayGames(searchResult);
     const searchTitle = document.getElementById('searchTitle');

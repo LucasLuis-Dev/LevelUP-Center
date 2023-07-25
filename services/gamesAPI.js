@@ -1,13 +1,14 @@
 async function getGames() {
-    const response = await fetch("http://localhost:3000/games")
+    const response = await fetch("https://lucasluis-dev.github.io/LevelUP-Center/data/db.json")
     let gamesList = await response.json()
+    gamesList = gamesList.games
 
     return gamesList
 }
 
 
 async function createGame(name, description , price, image, category) {
-    const connection = await fetch("http://localhost:3000/games", {
+    const connection = await fetch("https://lucasluis-dev.github.io/LevelUP-Center/data/db.json", {
         method: 'POST',
         headers: {
             "Content-Type": "application/json"
@@ -29,10 +30,26 @@ async function createGame(name, description , price, image, category) {
 
 
 async function featchGames(name) {
-    const connection = await fetch(`http://localhost:3000/games?q=${name}`)
-    const response = await connection.json()
+    const response = await fetch("https://lucasluis-dev.github.io/LevelUP-Center/data/db.json");
+    let data = await response.json();
+    data = data.games
 
-    return response
+    const searchTermLower = name.toLowerCase();
+
+    // Filter games that match the search term (case-insensitive) in either name or description
+   
+    const searchResults = data.filter((game) => {
+        const gameNameLower = String(game.name).toLowerCase();
+        const gameDescriptionLower = String(game.description).toLowerCase();
+    
+        return (
+          gameNameLower.includes(searchTermLower) ||
+          gameDescriptionLower.includes(searchTermLower)
+        );
+      });
+
+    return searchResults;
+
 }
 
 export const gamesServices = {
@@ -40,3 +57,5 @@ export const gamesServices = {
     createGame,
     featchGames
 }
+
+// https://lucasluis-dev.github.io/LevelUP-Center/data/db.json
