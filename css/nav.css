@@ -1,0 +1,206 @@
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 5%;
+}
+
+.nav-logo__container > a > img{
+    width: 6rem;
+}
+
+.nav-informations__container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-search__container > input {
+    width: 3.8rem;
+    height: 3.8rem;
+    background-image: url('/assets/magnifying-glass-solid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: 2.3rem;
+
+    background-color: rgba(226, 226, 226, 0.507);
+    border: none;
+    border-radius: 1rem;
+    padding: 1.6rem;
+    font-weight: 700;
+    font-size: 1.15rem;
+
+    transition: 300ms ease-in-out;
+}
+
+.nav-search__container > input::placeholder {
+    color: transparent;
+}
+
+
+
+.nav-search__container > input:focus {
+    width: 23.8rem;
+    background-color: rgba(226, 226, 226, 0.514);
+    background-position-x: 97%;
+    
+}
+
+.nav-search__container > input:focus::placeholder {
+    color: black;
+}
+
+.nav-login__container {
+    display: flex
+}
+
+.nav-login__container > a {
+    background-color: #FF47F9;
+    padding: 1rem 1.1rem;
+    border-radius: 30%;
+}
+
+.nav-login__container > a > svg {
+    width: 1.5rem;
+    fill: white;
+}
+
+
+
+
+/* === TABLET === */    
+
+@media screen and (min-width: 768px) {
+    .nav__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 2rem 5%;
+    }
+    
+    .nav-logo__container > a > img{
+        width: 10rem;
+    }
+    
+    .nav-informations__container {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-search__container > input {
+        width: 6rem;
+        height: 6rem;
+        background-image: url('/assets/magnifying-glass-solid.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+  
+        
+        background-size: 2.5rem;
+    
+        background-color: rgba(226, 226, 226, 0.507);
+        border: none;
+        border-radius: 1rem;
+        padding: 1.6rem;
+        font-weight: 700;
+        font-size: 1.7rem;
+    
+        transition: 300ms ease-in-out;
+    }
+    
+    .nav-search__container > input::placeholder {
+        color: transparent;
+    }
+    
+     
+    .nav-search__container > input:focus {
+        width: 50rem;
+        background-color: rgba(226, 226, 226, 0.514);
+        background-position-x: 97%;
+        
+        
+    }
+    
+    .nav-search__container > input:focus::placeholder {
+        color: black;
+    }
+    
+    .nav-login__container {
+        display: flex
+    }
+    
+    .nav-login__container > a {
+        background-color: #FF47F9;
+        padding: 1.6rem 1.8rem;
+        border-radius: 1rem;
+    }
+    
+    .nav-login__container > a > svg {
+        width: 2rem;
+        fill: white;
+    }
+}
+
+
+
+/* ===== NOTBOOOK ===== */
+
+@media screen and (min-width: 900px) {
+    .nav__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 2rem 10%;
+    }
+    
+    .nav-logo__container > a > img{
+        width: 10rem;
+    }
+    
+    .nav-informations__container {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-search__container > input {
+        width: 6rem;
+        height: 6rem;
+        background-image: url('/assets/magnifying-glass-solid.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+  
+        
+        background-size: 2.5rem;
+    
+        background-color: rgba(226, 226, 226, 0.507);
+        border: none;
+        border-radius: 1rem;
+        padding: 1.6rem;
+        font-weight: 700;
+        font-size: 1.7rem;
+    
+        transition: 300ms ease-in-out;
+    }
+    
+    .nav-search__container > input::placeholder {
+        color: transparent;
+    }
+    
+     
+    .nav-search__container > input:focus {
+        width: 80rem;
+        background-color: rgba(226, 226, 226, 0.514);
+        background-position-x: 97%;
+        
+        
+    }
+    
+}

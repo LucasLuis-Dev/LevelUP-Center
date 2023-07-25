@@ -1,0 +1,173 @@
+.add-new-game__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 10% 5%;
+}
+
+.add-new-game-title__container > h1 {
+    font-size: 2.9rem;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    
+}
+
+.form-game-name__container, .form-game-description__container, .form-game-image__container, .form-game-price__container, .form-game-category__container, .form-button-submit__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+
+
+
+.form-game-name__container > input, .form-game-description__container > textarea , .form-game-image__container > input, .form-game-price__container > input, .form-game-category__container > input {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    background-color: rgba(226, 226, 226, 0.514);;
+    border: none;
+}
+
+.form-button-submit__container > input {
+    background-color: #01C3DC;
+    
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 700;
+    
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    .add-new-game__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+        padding: 5% 10%;
+    }
+    
+    .add-new-game-title__container > h1 {
+        font-size: 4rem;
+    }
+    
+    .form__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 3rem;
+        
+    }
+    
+    .form-game-name__container, .form-game-description__container, .form-game-image__container, .form-game-price__container, .form-game-category__container, .form-button-submit__container {
+        display: flex;
+        justify-content: center;
+        width: 120%;
+        
+    }
+    
+    
+    
+    
+    .form-game-name__container > input, .form-game-description__container > textarea , .form-game-image__container > input, .form-game-price__container > input, .form-game-category__container > input {
+        display: flex;
+        width: 100%;
+        padding: 2rem;
+        border-radius: 1rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+        background-color: rgba(226, 226, 226, 0.514);;
+        border: none;
+    }
+    
+    .form-button-submit__container > input {
+        background-color: #01C3DC;
+        
+        padding: 2rem 4rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 700;
+        font-size: 2rem;
+        
+        color: white;
+        text-decoration: none;
+    
+        
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .add-new-game__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0% 0%;
+        padding-bottom: 5%;
+        gap: 2rem;
+    }
+    
+    .add-new-game-title__container > h1 {
+        font-size: 3.5rem;
+    }
+    
+    .form__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 3rem;
+        
+    }
+    
+    .form-game-name__container, .form-game-description__container, .form-game-image__container, .form-game-price__container, .form-game-category__container, .form-button-submit__container {
+        display: flex;
+        justify-content: center;
+        width: 120%;
+        
+    }
+    
+    .form-game-name__container > input, .form-game-description__container > textarea , .form-game-image__container > input, .form-game-price__container > input, .form-game-category__container > input {
+        display: flex;
+        width: 100%;
+        padding: 2rem;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        background-color: rgba(226, 226, 226, 0.514);;
+        border: none;
+    }
+    
+    .form-button-submit__container > input {
+        background-color: #01C3DC;
+        
+        padding: 2rem 4rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 700;
+        font-size: 2rem;
+        
+        color: white;
+        text-decoration: none;
+    
+        
+    }
+}

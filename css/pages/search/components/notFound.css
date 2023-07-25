@@ -1,0 +1,29 @@
+.not-found__container {
+    width: 100%;
+}
+
+.not-found__container > img {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .not-found__container {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .not-found__container > img {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .not-found__container {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .not-found__container > img {
+        width: 30%;
+    }
+}

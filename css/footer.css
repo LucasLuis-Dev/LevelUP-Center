@@ -1,0 +1,39 @@
+.footer__container {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FF47F9;
+    padding: 0% 5%;
+
+}
+
+.footer-text__container {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__container {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #FF47F9;
+        padding: 0% 10%;
+    
+    }
+    
+    .footer-text__container {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+}

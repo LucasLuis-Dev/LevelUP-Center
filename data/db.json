@@ -1,0 +1,108 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Rocket League",
+      "description": "Rocket League é uma competição de futebol híbrida e radical, de estilo arcade e destruição automotiva com controles fluidos, fáceis de entender e baseados na física real.",
+      "price": "Gratuito",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2619/db5d08ccbb772d92eaaedf0dd77b90f5f6a842f3854a3302.jpg",
+      "category": "Esportes"
+    },
+    {
+      "id": 2,
+      "name": "VALORANT",
+      "description": "VALORANT é um FPS tático 5x5 competitivo focado em personagens que se passa no mundo todo. Faça jogadas incríveis e supere seus oponentes com habilidades táticas, mecânica de tiro e trabalho em equipe.",
+      "price": "Gratuito",
+      "image": "https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S2_1200x1600-b911781672bac23a556586fb92c42983",
+      "category": "Ação"
+    },
+    {
+      "id": 3,
+      "name": "Red Dead Redemption 2",
+      "description": "Vencedor de mais de 175 prêmios de Jogo do Ano e avaliado com mais de 250 notas máximas, Red Dead Redemption 2 é uma história épica de honra e lealdade no alvorecer dos tempos modernos. Inclui Red Dead Redemption 2: Modo História e Red Dead Online.",
+      "price": "R$ 200,00",
+      "image": "https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic%20Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg",
+      "category": "Ação"
+    },
+    {
+      "id": 4,
+      "name": "Genshi Impact",
+      "description": "Você irá explorar um mundo de fantasia chamado 'Teyvat' no jogo, onde você pode viajar por sete nações, encontrar companheiros com diferentes personalidades e habilidades únicas, lutar contra inimigos e embarcar na estrada para reencontrar seu parente de sangue.",
+      "price": "Gratuito",
+      "image": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc",
+      "category": "RPG"
+    },
+    {
+      "id": 5,
+      "name": "Grand Theft Auto V",
+      "description": "O Grand Theft Auto V: Edição Premium inclui o Modo História completo do Grand Theft Auto V, Grand Theft Auto Online e todo o conteúdo e melhorias de jogo já lançados. Você também recebe o Kit Inicial de Esquema Criminal, a maneira mais rápida de começar seu império do crime no Grand Theft Auto Online.",
+      "price": "R$ 60,00",
+      "image": "https://m.media-amazon.com/images/I/91T0XQv8gEL._AC_UF1000,1000_QL80_.jpg",
+      "category": "Ação"
+    },
+    {
+      "id": 6,
+      "name": "The Outlast Trials",
+      "description": "A Red Barrels te convida para essa experiência aterrorizante, mas dessa vez com amigos. Não importa se você passa pelos testes com uma equipe ou sozinho: se sobreviver por tempo suficiente e concluir a terapia, a Murkoff deixará você partir... mas você ainda será a mesma pessoa?",
+      "price": "R$ 70,00",
+      "image": "https://cdn1.epicgames.com/6504cc61472e498796e0b4963a201438/offer/EGS_TheOutlastTrials_RedBarrels_S2-1200x1600-c70676de7925195513fa7bc4bc2f1d9b.jpg",
+      "category": "Terror"
+    },
+    {
+      "id": 7,
+      "name": "FIFA 23",
+      "description": "FIFA 23 traz o Jogo de Todo Mundo aos gramados com a tecnologia HyperMotion2, a FIFA World Cup™ masculina e feminina (lançamento durante a temporada), times femininos, recursos de crossplay** e muito mais.",
+      "price": "R$ 200,00",
+      "image": "https://cdn1.epicgames.com/offer/f5deacee017b4b109476933f7dd2edbd/EGS_EASPORTSFIFA23StandardEdition_EACanada_S2_1200x1600-c806355d9cc8b35ebe392f2a7db03075",
+      "category": "Esportes"
+    },
+    {
+      "id": 8,
+      "name": "Assassin's Creed Origins",
+      "description": "Revele segredos sombrios e mitos esquecidos enquanto volta para onde tudo começou: As origens da Irmandade dos Assassinos.",
+      "price": "R$ 100,00",
+      "image": "https://cdn1.epicgames.com/offer/camellia/ACOrigins_STD_Store_Portrait_1200x1600_1200x1600-4a79f9f393f7a3a9e5be3a0ae581f3d5",
+      "category": "Ação"
+    },
+    {
+      "id": 9,
+      "name": "Need for Speed™ Unbound",
+      "description": "O Need for Speed™ Unbound Vol. 3 traz novas maneiras de ganhar XP e saldo. Trabalhe em equipe para superar desafios intensos baseados em manobras ousadas.",
+      "price": "R$ 90,00",
+      "image": "https://cdn1.epicgames.com/offer/9acb0d22292b48acaeb0eb38b391df93/EGS_NeedforSpeedUnbound_CriterionGames_S2_1200x1600-9633e095cbd48726c6025f64d3114bb8",
+      "category": "Corrida"
+    },
+    {
+      "id": 10,
+      "name": "Horizon Zero Dawn™ Complete Edition",
+      "description": "Vivencie a lendária missão de Aloy para desvendar os mistérios de uma Terra futura governada por máquinas. Use ataques táticos devastadores contra suas presas e explore um mundo aberto majestoso neste premiado RPG de ação!",
+      "price": "R$ 200,00",
+      "image": "https://cdn1.epicgames.com/3328b08ac1c14540aa265a1a85c07839/offer/hzd_tall-1200x1600-d4b1057afd47f9256d8da71f2f187be4.jpg",
+      "category": "Ação"
+    },
+    {
+      "id": 11,
+      "name": "War Thunder",
+      "description": "War Thunder é um MMO de combate grátis, dedicado a veículos militares dos períodos da 2ª Guerra Mundial e Guerra da Coreia. Lute em grandes batalhas no ar, terra e mar, com jogadores internacionais num ambiente sempre em desenvolvimento. ",
+      "price": "Gratuito",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202007/0105/bMB8aJoTmx0NoVffDuhuI0Ih.png",
+      "category": "Ação"
+    },
+    {
+      "id": 12,
+      "name": "Fortnite",
+      "description": "Chame seus amigos e mergulhe no Fortnite, um jogo massivo de combate entre 100 jogadores da Epic Games que combina saque, criação, tiroteio e caos. O resultado é uma experiência online competitiva e totalmente imprevisível que só fica maior e mais radical a cada temporada.",
+      "price": "Gratuito",
+      "image": "https://assets-prd.ignimgs.com/2023/06/09/fortnitewilds-1686353306240.jpg",
+      "category": "Ação"
+    },
+    {
+      "id": 13,
+      "name": "Dead Island 2",
+      "description": "Um vírus letal se espalha por Los Angeles e transforma os habitantes em zumbis. Descubra a verdade por trás disso e sobre quem você é depois de levar mordidas, se infectar e se tornar mais que apenas imune.",
+      "price": "R$ 230,00",
+      "image": "https://cdn1.epicgames.com/offer/236c74b4cd2e4e3099cbe2ebdc9686fd/EGS_DeadIsland2_DeepSilverDambusterStudios_S2_1200x1600-efc5201842cf642eb45f73227cd0789b",
+      "category": "Ação"
+    }
+  ]
+}

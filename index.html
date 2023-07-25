@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - LevelUP</title>
+    <link rel="icon" type="image/png" href="./assets/rounded-in-photoretrica.png" sizes="32x32">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/pages/home/components/header.css">
+    <link rel="stylesheet" href="./css/pages/home/components/categories.css">
+    <link rel="stylesheet" href="./css/games.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav__container">
+        <figure class="nav-logo__container">
+            <a href="./index.html">
+                <img src="./assets/Black_Green_Futuristic_Game_Logo-removebg-preview(1).png" alt="">
+            </a>
+        </figure>
+
+        <div class="nav-informations__container">
+            <div class="nav-search__container">
+                <input type="text" id="navSearch" placeholder="Qual jogo você deseja encontrar?" data-nav-search>
+            </div>
+    
+            <div class="nav-login__container">
+                <a href="./pages/login.html">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <header class="header__container">
+
+        <div class="header-title__container">
+            <h1>Jogos em Destaque</h1>
+        </div>
+
+        <div class="header-slides__container">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+
+
+            <div class="slide first">
+                <img src="./assets/rocket_league.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/valorant.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/dead_island 2.jpeg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./assets/genshi_impact.jpeg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="category-selection__container">
+            <div class="categories__container">
+
+                <button id="btnAllCategories" value="Todas as Categorias">
+                    Todas as Categorias
+                </button>
+                <button id="btnAction" value="Ação">
+                    Ação
+                </button>
+                <button id="btnHorror" value="Terror">
+                    Terror
+                </button>
+                <button id="btnRPG" value="RPG">
+                    RPG
+                </button>
+                <button id="btnRace" value="Corrida">
+                    Corrida
+                </button>
+                <button id="btnSports" value="Esportes">
+                    Esportes
+                </button>
+                <button id="btnFree" value="Gratuitos">
+                    Gratuitos
+                </button>
+                <button id="btnPaid" value="Pagos">
+                    Pagos
+                </button>
+               
+            </div>
+
+            <div class="category-selection-informations__container">
+                <div class="category-selection-title__container">
+                    <h1 id="categoriesTitle">Todas as Categorias</h1>
+                </div>
+
+                <div class="button-add-game__container">
+                    <a href="./pages/addNewProduct.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
+                    </a>
+                </div>
+            </div>      
+        </section>
+
+        <section class="games__container" id="gamesContainer">
+            
+        </section>
+
+    </main>
+
+    <footer class="footer__container">
+        <div class="footer-text__container">
+            <p>
+                Desenvolvido por Lucas_Lu1s.dev
+            </p>
+        </div>
+        
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+    <script src="./js/displayGames.js"></script>
+    <script src="./js/carrosel.js"></script>
+    <script type="module" src="./js/searchGames.js"></script>
+    <script type="module" src="./js/filterGames.js"></script>
+    
+</body>
+</html>

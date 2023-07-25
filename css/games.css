@@ -1,0 +1,185 @@
+.games__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10% 5%;
+    gap: 5%;
+    grid-row-gap: 4rem;
+    width: 100%;
+}
+
+.games__container > img {
+    width: 100%;
+}
+
+.game__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.3rem;
+}
+
+.game-photo__container > img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 0.6rem;
+}
+
+
+.game-description__container {
+    color: rgb(58, 57, 57);
+}
+
+.game-price__container  {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: #FFB100;
+    width: fit-content;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .games__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 5% 5%;
+        gap: 3%;
+        grid-row-gap: 4rem;
+        width: 100%;
+    }
+    
+    .games__container > img {
+        width: 100%;
+    }
+    
+    .game__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1.3rem;
+    }
+    
+    .game-photo__container > img {
+        width: 100%;
+        height: 40rem;
+        border-radius: 0.6rem;
+    }
+
+    .game-title__container > h2 {
+        font-size: 2.6rem;
+        font-weight: 700;
+    }
+    
+    .game-description__container > p {
+        color: rgb(58, 57, 57);
+        font-size: 1.6rem;
+    }
+    
+    .game-price__container  {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: #FFB100;
+        width: fit-content;
+        padding: 0.4rem 1rem;
+        border-radius: 0.3rem;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 900px) {
+
+    .games__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5% 10%;
+        gap: 3%;
+        grid-row-gap: 4rem;
+        width: 100%;
+    }
+    
+    .games__container > img {
+        width: 100%;
+    }
+    
+    .game__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .game-photo__container > img {
+        width: 90%;
+        height: 30rem;
+        
+    }
+
+    .game-title__container > h2 {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    
+    .game-description__container > p {
+        color: rgb(58, 57, 57);
+        font-size: 1.4rem;
+    }
+    
+    .game-price__container  {
+        display: flex;
+        justify-content: center;
+        font-size: 1.6rem;
+        font-weight: 700;
+        background-color: #FFB100;
+        width: fit-content;
+        padding: 0.4rem 1rem;
+        border-radius: 0.3rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .games__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 1% 10%;
+        padding-bottom: 5%;
+        gap: 2%;
+        grid-row-gap: 5rem;
+        width: 100%;
+    }
+    
+
+    
+    .game__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 110%;
+        gap: 1rem;
+    }
+    
+    .game-photo__container > img {
+        width: 90%;
+        height: 35rem;
+        
+    }
+
+    .game-title__container > h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    
+}

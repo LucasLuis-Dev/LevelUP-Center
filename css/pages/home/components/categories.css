@@ -1,0 +1,145 @@
+.category-selection__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0% 5%;
+    width: 100%;
+}
+
+
+.categories__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    gap: 1rem;
+}
+
+.categories__container > button {
+    background-color: #FF47F9;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.category-selection-informations__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-selection-title__container {
+    font-size: 1.7rem;
+}
+
+.button-add-game__container > a {
+    display: flex;
+    background-color: #FF47F9;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.button-add-game__container > a > svg {
+    fill: white;
+    width: 2rem;
+} 
+
+
+/* === TABLET === */
+
+@media screen and (min-width: 768px) {
+    
+    
+    .categories__container > button {
+        background-color: #FF47F9;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 500;
+        font-size: 2.2rem;
+        color: white;
+    }
+    
+    .category-selection-informations__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .category-selection-title__container {
+        font-size: 2.3rem;
+    }
+    
+    .button-add-game__container > a {
+        display: flex;
+        background-color: #FF47F9;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .button-add-game__container > a > svg {
+        fill: white;
+        width: 3rem;
+    } 
+    
+}
+
+/* === NOTEBOOKS === */
+
+@media screen and (min-width: 900px) {
+
+    .category-selection__container {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 2% 10%;
+        width: 100%;
+    }
+
+    .categories__container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 100%;
+        gap: 2rem;
+    }
+    
+    
+    .categories__container > button {
+        background-color: #FF47F9;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .category-selection-informations__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .category-selection-title__container {
+        font-size: 2.3rem;
+    }
+    
+    .button-add-game__container > a {
+        display: flex;
+        background-color: #FF47F9;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .button-add-game__container > a > svg {
+        fill: white;
+        width: 3rem;
+    } 
+    
+}
